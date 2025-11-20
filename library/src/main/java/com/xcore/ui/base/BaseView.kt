@@ -1,6 +1,6 @@
 package com.xcore.ui.base
 
-import com.xcore.core.libs.base.IBaseView
+import com.xcore.libs.base.IBaseView
 
 interface BaseView : IBaseView {
 

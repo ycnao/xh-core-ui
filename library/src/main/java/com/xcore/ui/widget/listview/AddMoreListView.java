@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 
 
 /**

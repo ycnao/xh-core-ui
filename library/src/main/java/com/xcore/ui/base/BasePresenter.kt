@@ -1,8 +1,8 @@
 package com.xcore.ui.base
 
 import android.content.Context
-import com.xcore.core.libs.base.IBasePresenter
-import com.xcore.core.libs.base.IBaseView
+import com.xcore.libs.base.IBasePresenter
+import com.xcore.libs.base.IBaseView
 
 /**
  *

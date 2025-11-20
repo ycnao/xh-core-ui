@@ -28,7 +28,7 @@ import android.widget.TextView;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 import com.xcore.ui.widget.tablayout.listener.CustomTabEntity;
 import com.xcore.ui.widget.tablayout.listener.OnTabSelectListener;
 import com.xcore.ui.widget.tablayout.utils.FragmentChangeManager;

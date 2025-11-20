@@ -3,11 +3,11 @@ package com.xcore.ui.base
 import android.app.Activity
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.xcore.core.libs.base.IBaseActivity
-import com.xcore.core.libs.base.IBaseFragment
-import com.xcore.core.libs.base.IBaseView
+import com.xcore.libs.base.IBaseActivity
+import com.xcore.libs.base.IBaseFragment
+import com.xcore.libs.base.IBaseView
 import com.xcore.ui.widget.spotsdialog.SpotsDialog
-import com.xcore.core.ui.R
+import com.xcore.ui.R
 import org.greenrobot.eventbus.EventBus
 
 /**

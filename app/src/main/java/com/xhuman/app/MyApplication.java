@@ -1,17 +1,17 @@
 package com.xhuman.app;
 
+import android.app.Application;
 import android.content.Context;
 
 import androidx.multidex.MultiDex;
 
-import com.xcore.core.libs.JApplication;
 
 /**
  * MyApplication
  * author: Created by 闹闹 on 2019/7/10
  * version: 1.0.0
  */
-public class MyApplication extends JApplication {
+public class MyApplication extends Application {
 
     private static MyApplication instance;
     public static Context applicationContext;

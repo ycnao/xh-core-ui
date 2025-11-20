@@ -14,7 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 
 /**
  * author: Created by 闹闹 on 2018-09-25

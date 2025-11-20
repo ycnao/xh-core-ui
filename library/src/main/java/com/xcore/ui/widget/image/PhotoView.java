@@ -22,7 +22,7 @@ import android.widget.Scroller;
 
 import androidx.appcompat.widget.AppCompatImageView;
 
-import com.xcore.core.libs.utils.ResourceUtils;
+import com.xcore.libs.utils.ResourceUtils;
 import com.xcore.ui.widget.view.RotateGestureDetector;
 
 

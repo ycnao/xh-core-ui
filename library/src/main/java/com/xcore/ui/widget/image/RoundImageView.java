@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 
 import androidx.appcompat.widget.AppCompatImageView;
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 
 
 /**

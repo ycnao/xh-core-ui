@@ -14,7 +14,7 @@ import android.util.TypedValue;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 
 
 /**

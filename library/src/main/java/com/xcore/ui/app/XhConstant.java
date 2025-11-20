@@ -1,6 +1,6 @@
 package com.xcore.ui.app;
 
-import com.xcore.core.libs.app.JConstant;
+import com.xcore.libs.app.JConstant;
 
 public class XhConstant extends JConstant {
 

@@ -28,7 +28,7 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 import com.xcore.ui.widget.tablayout.listener.OnTabSelectListener;
 import com.xcore.ui.widget.tablayout.utils.UnreadMsgUtils;
 import com.xcore.ui.widget.tablayout.utils.Utils;

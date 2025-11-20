@@ -15,8 +15,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
 
-import com.xcore.core.libs.adapter.NArrayAdapter;
-import com.xcore.core.ui.R;
+import com.xcore.libs.adapter.NArrayAdapter;
+import com.xcore.ui.R;
 import com.xcore.ui.widget.dialog.callback.MuDialogBaseActionCallback;
 
 import java.util.ArrayList;

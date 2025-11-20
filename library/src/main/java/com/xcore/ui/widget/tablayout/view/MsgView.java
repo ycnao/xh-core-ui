@@ -10,7 +10,7 @@ import android.util.AttributeSet;
 
 import androidx.appcompat.widget.AppCompatTextView;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 
 
 /**

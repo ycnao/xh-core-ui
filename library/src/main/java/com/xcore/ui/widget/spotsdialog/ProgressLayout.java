@@ -5,7 +5,7 @@ import android.content.res.TypedArray;
 import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 
 
 /**

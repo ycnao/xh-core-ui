@@ -15,12 +15,12 @@ import android.view.inputmethod.InputMethodManager
 import androidx.core.app.ActivityCompat
 import androidx.lifecycle.lifecycleScope
 
-import com.xcore.core.libs.lstener.CountDownListener
-import com.xcore.core.libs.utils.AppUtils
-import com.xcore.core.libs.base.IBaseActivity
-import com.xcore.core.libs.base.IBaseView
+import com.xcore.libs.lstener.CountDownListener
+import com.xcore.libs.utils.AppUtils
+import com.xcore.libs.base.IBaseActivity
+import com.xcore.libs.base.IBaseView
 import com.xcore.ui.widget.spotsdialog.SpotsDialog
-import com.xcore.core.ui.R
+import com.xcore.ui.R
 
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.Flow

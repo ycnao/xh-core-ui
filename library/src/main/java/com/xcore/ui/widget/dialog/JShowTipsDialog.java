@@ -7,7 +7,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 import com.xcore.ui.widget.dialog.callback.JDialogCallback;
 
 

@@ -17,7 +17,7 @@ import android.widget.TextView;
 import androidx.core.view.NestedScrollingChild;
 import androidx.core.view.NestedScrollingChildHelper;
 
-import com.xcore.core.ui.R;
+import com.xcore.ui.R;
 
 
 /**
