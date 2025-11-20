@@ -14,7 +14,7 @@
         android:textAppearance="?attr/DialogTitleAppearance"
         android:textColor="#333333" />
 
-    <com.xzero.core.ui.widget.spotsdialog.ProgressLayout
+    <com.xcore.ui.widget.spotsdialog.ProgressLayout
         android:id="@+id/progress"
         android:layout_width="250dp"
         android:layout_height="wrap_content"

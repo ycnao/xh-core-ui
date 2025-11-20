@@ -4,7 +4,7 @@ import android.content.Context;
 
 import androidx.multidex.MultiDex;
 
-import com.xzero.core.libs.JApplication;
+import com.xcore.core.libs.JApplication;
 
 /**
  * MyApplication
