@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="window_bg">#F5F5F5</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue_pre">#1379d6</color>
+    <color name="blue_color">#1963FE</color>
+    <color name="light_bg">#10c1ff</color>
+    <color name="light_high_bg">#5567fc</color>
+    <color name="no_color">@color/transparent</color>
+
+    <color name="txt_3">#333333</color>
+    <color name="txt_6">#666666</color>
+    <color name="txt_9">#999999</color>
+
+    <color name="txt_hint">#D3D3D1</color>
+    <color name="txt_input">#020203</color>
+    <color name="txt_grey_A0">#7C8DA0</color>
+    <color name="txt_grey_21">#212121</color>
+    <color name="txt_grey_20">#050B20</color>
+
+    <color name="grey_color">#dedede</color>
+    <color name="grey73_color">#73000000</color>
+    <color name="grey40_color">#40000000</color>
+    <color name="greyE0_color">#E0000000</color>
+
+    <color name="grey01">#1C1C1C</color>
+    <color name="grey11">#343434</color>
+    <color name="grey21">#363636</color>
+    <color name="grey22">#3b3f42</color>
+    <color name="grey24">#444444</color>
+    <color name="grey31">#4F4F4F</color>
+    <color name="grey41">#696969</color>
+    <color name="grey51">#828282</color>
+    <color name="grey61">#9C9C9C</color>
+    <color name="grey71">#B5B5B5</color>
+    <color name="grey81">#CFCFCF</color>
+    <color name="grey91">#E8E8E8</color>
+    <color name="text_3">#333333</color>
+    <color name="text_4">#444444</color>
+    <color name="text_6">#666666</color>
+    <color name="text_9">#999999</color>
+    <color name="text_c">#cccccc</color>
+
+    <color name="orange">#fff97d03</color>
+    <color name="red">#F11B44</color>
+    <color name="green">#43CD80</color>
+
+    <color name="RoyalBlue2">#436EEE</color>
+    <color name="SpringGreen3">#00CD66</color>
+    <color name="alpha_05_black">#0D000000</color>
+    <color name="alpha_05_white">#0DFFFFFF</color>
+    <color name="alpha_10_black">#1A000000</color>
+    <color name="alpha_10_white">#1AFFFFFF</color>
+    <color name="alpha_15_black">#26000000</color>
+    <color name="alpha_15_white">#26FFFFFF</color>
+    <color name="alpha_20_black">#33000000</color>
+    <color name="alpha_20_white">#33FFFFFF</color>
+    <color name="alpha_25_black">#40000000</color>
+    <color name="alpha_25_white">#40FFFFFF</color>
+    <color name="alpha_30_black">#4D000000</color>
+    <color name="alpha_30_white">#4DFFFFFF</color>
+    <color name="alpha_35_black">#59000000</color>
+    <color name="alpha_35_white">#59FFFFFF</color>
+    <color name="alpha_40_black">#66000000</color>
+    <color name="alpha_40_white">#66FFFFFF</color>
+    <color name="alpha_45_black">#73000000</color>
+    <color name="alpha_45_white">#73FFFFFF</color>
+    <color name="alpha_50_black">#80000000</color>
+    <color name="alpha_50_white">#80FFFFFF</color>
+    <color name="alpha_55_black">#8C000000</color>
+    <color name="alpha_55_white">#8CFFFFFF</color>
+    <color name="alpha_60_black">#99000000</color>
+    <color name="alpha_60_white">#99FFFFFF</color>
+    <color name="alpha_65_black">#A6000000</color>
+    <color name="alpha_65_white">#A6FFFFFF</color>
+    <color name="alpha_70_black">#B3000000</color>
+    <color name="alpha_70_white">#B3FFFFFF</color>
+    <color name="alpha_75_black">#BF000000</color>
+    <color name="alpha_75_white">#BFFFFFFF</color>
+    <color name="alpha_80_black">#CC000000</color>
+    <color name="alpha_80_white">#CCFFFFFF</color>
+    <color name="alpha_85_black">#D9000000</color>
+    <color name="alpha_85_white">#D9FFFFFF</color>
+    <color name="alpha_90_black">#E6000000</color>
+    <color name="alpha_90_white">#E6FFFFFF</color>
+    <color name="alpha_95_black">#F2000000</color>
+    <color name="alpha_95_white">#F2FFFFFF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="translucent_white">#61FFFFFF</color>
+</resources>

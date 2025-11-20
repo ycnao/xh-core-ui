@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/white_radius_10_bg"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:paddingBottom="25dp">
+
+
+        <TextView
+            android:id="@+id/tv_camera"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_white_selector"
+            android:gravity="center"
+            android:text="拍照"
+            android:textColor="@color/txt_input"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey_color" />
+
+        <TextView
+            android:id="@+id/tv_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_white_selector"
+            android:gravity="center"
+            android:text="从相册选择"
+            android:textColor="@color/txt_input"
+            android:textSize="16sp" />
+
+        <View
+          style="@style/line_10" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/btn_white_selector"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/txt_input"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</RelativeLayout>

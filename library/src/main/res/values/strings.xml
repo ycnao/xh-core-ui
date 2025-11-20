@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">xh-core-ui</string>
+
+    <string name="add">添加</string>
+    <string name="del">删除</string>
+    <string name="agreement">《平台注册协议》</string>
+    <string name="click_refresh">没有记录，点击刷新</string>
+    <string name="click_retry">点击重试</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+    <string name="confirm_true">确认完成</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="content_default">在这里说出想要说的话哦，在代码中动态控制</string>
+    <string name="enter_password">输入密码</string>
+    <string name="enter_new_password">输入新密码</string>
+    <string name="enter_new_password_again">再次输入新密码</string>
+    <string name="enter_password_again">再输入一次密码</string>
+    <string name="find_password">找回密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="loading">努力加载中……</string>
+    <string name="login">登录</string>
+    <string name="login_change_code">验证码登录</string>
+    <string name="login_change_password">账号密码登录</string>
+    <string name="login_success">登录成功</string>
+    <string name="msg">提示</string>
+    <string name="name_default">用户昵称</string>
+    <string name="net_error">亲，网络不给力</string>
+    <string name="next">下一步</string>
+    <string name="password">密码</string>
+    <string name="password_not_empty">密码不能为空</string>
+    <string name="phone">手机号码</string>
+    <string name="phone_not_empty">手机号不能为空</string>
+    <string name="please_agree_agreement">请先同意用户协议</string>
+    <string name="please_confirm_password">请确认密码</string>
+    <string name="please_enter_password">请输入密码</string>
+    <string name="please_enter_phone">请输入手机号码</string>
+    <string name="please_enter_true_phone">"请输入正确的手机号码"</string>
+    <string name="please_wait">请等候…</string>
+    <string name="read_agree">已阅读并同意</string>
+    <string name="register">注册</string>
+    <string name="register_success">注册成功</string>
+    <string name="submit">提交</string>
+    <string name="title">标题</string>
+    <string name="two_password_not_same">两次密码不一致</string>
+    <string name="verification_code">短信验证码</string>
+    <string name="verification_code_not_empty">验证码不能为空</string>
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MuDialog_container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bg_shape"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 内容 -->
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/dimen_10"
+                    android:layout_marginTop="@dimen/dimen_10"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/contentTv"
+                        style="@style/MuDialog_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:text="@string/content_default"
+                        android:textSize="14sp" />
+
+                    <WebView
+                        android:id="@+id/webV_html"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </ScrollView>
+
+            <!-- 按钮 -->
+            <View style="@style/line_h" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cancelBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_grey_left_bg_select"
+                    android:padding="@dimen/dialog_padding"
+                    android:text="@string/cancel"
+                    android:textColor="@color/btn_text_selector"
+                    android:textSize="@dimen/dialog_txt" />
+
+                <View style="@style/line_v" />
+
+                <Button
+                    android:id="@+id/okBtn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_grey_right_bg_select"
+                    android:padding="@dimen/dialog_padding"
+                    android:text="@string/confirm"
+                    android:textColor="@color/btn_text_selector"
+                    android:textSize="@dimen/dialog_txt" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
