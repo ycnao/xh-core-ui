@@ -168,19 +168,23 @@ abstract class BaseActivity<T : Activity> : IBaseActivity<T>(), IBaseView {
         }.flowOn(Dispatchers.IO) // 指定生产者所在线程（类似 subscribeOn）
 
         // 启动协程收集数据流（类似 subscribe）
-        job = lifecycleScope.launch { // 假设在 Android 中使用 lifecycleScope
-            countDownFlow
-                .onEach { mCountDownListener?.startTask() } // 对应 doOnNext
-                .onCompletion { mCountDownListener?.endTask() } // 对应 doOnComplete
-                .collect()
-            // 开始收集数据（挂起函数）
+        if (job == null) {
+            job = lifecycleScope.launch { // 假设在 Android 中使用 lifecycleScope
+                countDownFlow
+                    .onEach { mCountDownListener?.startTask() } // 对应 doOnNext
+                    .onCompletion { mCountDownListener?.endTask() } // 对应 doOnComplete
+                    .collect()
+                // 开始收集数据（挂起函数）
+            }
         }
     }
 
     // 取消任务（对应 Disposable.dispose()）
     fun cancelTime() {
-        job?.cancel()
-        job = null
+        if (job != null) {
+            job?.cancel()
+            job = null
+        }
     }
 
 
