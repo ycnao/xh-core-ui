@@ -157,18 +157,17 @@ abstract class BaseActivity<T : Activity> : IBaseActivity<T>(), IBaseView {
     fun countDown(listener: CountDownListener) {
         mCountDownListener = listener
         cancelTime() // 取消之前的任务
-
-        // 创建倒计时 Flow
-        val countDownFlow: Flow<Long> = flow {
-            delay(200) // 初始延迟 200ms
-            repeat(5) { index ->
-                emit(index.toLong()) // 发送 0-4 的事件
-                delay(400) // 每次间隔 400ms
-            }
-        }.flowOn(Dispatchers.IO) // 指定生产者所在线程（类似 subscribeOn）
-
         // 启动协程收集数据流（类似 subscribe）
         if (job == null) {
+            // 创建倒计时 Flow
+            val countDownFlow: Flow<Long> = flow {
+                delay(200) // 初始延迟 200ms
+                repeat(5) { index ->
+                    emit(index.toLong()) // 发送 0-4 的事件
+                    delay(400) // 每次间隔 400ms
+                }
+            }.flowOn(Dispatchers.IO) // 指定生产者所在线程（类似 subscribeOn）
+
             job = lifecycleScope.launch { // 假设在 Android 中使用 lifecycleScope
                 countDownFlow
                     .onEach { mCountDownListener?.startTask() } // 对应 doOnNext

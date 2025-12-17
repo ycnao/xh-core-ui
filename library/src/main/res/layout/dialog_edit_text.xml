@@ -23,6 +23,7 @@
                 android:layout_marginBottom="20dp"
                 android:gravity="center_horizontal"
                 android:text="title"
+                android:textColor="@color/black"
                 android:textSize="16sp" />
 
             <EditText
@@ -32,6 +33,7 @@
                 android:background="@drawable/input_radius_bg"
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
+                android:textColor="@color/grey01"
                 android:textSize="14sp" />
 
         </LinearLayout>
