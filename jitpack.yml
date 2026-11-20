@@ -1,0 +1,11 @@
+# Gradle 6.5 可运行于 JDK 11；使用 JDK 8 会在处理 MODULE 注解时导致 javac 崩溃。
+# Java/Kotlin 的目标字节码仍由模块配置保持为 1.8，不影响 Android 最低版本。
+jdk:
+  - openjdk11
+
+before_install:
+  - chmod +x gradlew
+
+# 沿用现有 android-maven 插件的 install 任务，只安装库产物。
+install:
+  - ./gradlew :library:install -Pgroup=com.github.ycnao -Pversion=$VERSION --console=plain
