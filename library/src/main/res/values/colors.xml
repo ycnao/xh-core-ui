@@ -91,4 +91,6 @@
 
     <color name="transparent">#00000000</color>
     <color name="translucent_white">#61FFFFFF</color>
+
+    <color name="green_07c060">#07C060</color>
 </resources>

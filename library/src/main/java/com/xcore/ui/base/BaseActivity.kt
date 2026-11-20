@@ -34,7 +34,7 @@ import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 /**
- *登录页面
+ *
  * author: Created by 闹闹 on 2018-09-11
  * version: 1.0.0
  */
