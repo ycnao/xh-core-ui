@@ -89,7 +89,7 @@ public class ApkUtil {
      * @param assetsApkName Assets 中的 APK 文件名
      * @return 本地 APK 文件
      */
-    private static File copyAssetsApkToLocal(Context context, String assetsApkName) {
+    public static File copyAssetsApkToLocal(Context context, String assetsApkName) {
         InputStream is = null;
         OutputStream os = null;
         try {
@@ -127,7 +127,7 @@ public class ApkUtil {
      * @param context 上下文
      * @param apkFile 本地 APK 文件
      */
-    private static void installApk(Context context, File apkFile) {
+    public static void installApk(Context context, File apkFile) {
         Intent installIntent = new Intent(Intent.ACTION_INSTALL_PACKAGE);
         Uri apkUri;
         // Android 7.0+ 使用 FileProvider 获取 Uri
@@ -142,6 +142,5 @@ public class ApkUtil {
         installIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         context.startActivity(installIntent);
     }
-
 
 }
