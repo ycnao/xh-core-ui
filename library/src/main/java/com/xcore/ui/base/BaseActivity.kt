@@ -185,17 +185,6 @@ abstract class BaseActivity<T : Activity> : IBaseActivity<T>(), IBaseView {
             job = null
         }
     }
-
-
-    /**
-     * 去系统设置页面
-     */
-    fun toSystemSetting() {
-        val intent = Intent()
-        intent.action = Settings.ACTION_APPLICATION_DETAILS_SETTINGS
-        intent.data = Uri.fromParts("package", applicationContext.packageName, null)
-        startActivity(intent)
-    }
 }
 
 

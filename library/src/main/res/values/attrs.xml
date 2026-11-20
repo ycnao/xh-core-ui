@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
     <string-array name="Feed">
         <item>功能问题</item>
         <item>界面问题</item>

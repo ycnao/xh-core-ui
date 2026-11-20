@@ -17,7 +17,7 @@ import com.xcore.ui.widget.image.SquareImageView
  * author: Created by 闹闹 on 2018-10-14
  * version: 1.0.0
  */
-object GlideUtils {
+object GlideUtil {
 
     /**
      * ImageView

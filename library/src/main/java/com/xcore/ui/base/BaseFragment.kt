@@ -1,11 +1,16 @@
 package com.xcore.ui.base
 
 import android.app.Activity
+import android.os.Build
 import android.os.Bundle
+import android.view.View
+import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.xcore.libs.base.IBaseActivity
 import com.xcore.libs.base.IBaseFragment
 import com.xcore.libs.base.IBaseView
+import com.xcore.libs.utils.StatusBarUtils
 import com.xcore.ui.widget.spotsdialog.SpotsDialog
 import com.xcore.ui.R
 import org.greenrobot.eventbus.EventBus
@@ -23,27 +28,26 @@ abstract class BaseFragment<A : IBaseActivity<A>, F : Fragment> : IBaseFragment<
         super.onCreate(savedInstanceState)
     }
 
-//    /**
-//     * 	动态设置状态栏高度
-//     */
-//    fun initTopView() {
-//        if (topView != null) {
-//            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-//                topView.visibility = View.VISIBLE
-//                //获取当前控件的布局对象
-//                val params = topView.layoutParams as LinearLayout.LayoutParams
-//                //设置当前控件布局的高度
-//                params.height = StatusBarUtils.getStatusBarHeight(act)
-//                //将设置好的布局参数应用到控件中
-//                topView.layoutParams = params
-//            } else {
-//                topView.visibility = View.GONE
-//            }
-//        }
-//    }
+    /**
+     * 	动态设置状态栏高度
+     */
+    fun initTopView(topView: TextView) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            topView.visibility = View.VISIBLE
+            //获取当前控件的布局对象
+            val params = topView.layoutParams as LinearLayout.LayoutParams
+            //设置当前控件布局的高度
+            params.height = StatusBarUtils.getStatusBarHeight(act)
+            //将设置好的布局参数应用到控件中
+            topView.layoutParams = params
+        } else {
+            topView.visibility = View.GONE
+        }
+    }
 
     override fun showLoading(msg: String?) {
-        spotsDialog = SpotsDialog(activity, if (msg.isNullOrEmpty()) getString(R.string.please_wait) else msg)
+        val wait = getString(R.string.please_wait)
+        spotsDialog = SpotsDialog(activity, if (msg.isNullOrEmpty()) wait else msg)
         spotsDialog.setCancelable(true)
         spotsDialog.setCanceledOnTouchOutside(true)
         spotsDialog.show()

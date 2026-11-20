@@ -2,7 +2,7 @@ package com.xcore.ui.app;
 
 import com.xcore.libs.app.JConstant;
 
-public class XhConstant extends JConstant {
+public class JConstants extends JConstant {
 
     public final static String AGREEMENT_NAME = "用户注册协议";
     public final static String USER_AGREEMENT = "USER_AGREEMENT"; //用户协议

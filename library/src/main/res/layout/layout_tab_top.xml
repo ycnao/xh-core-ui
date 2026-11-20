@@ -25,7 +25,7 @@
             android:singleLine="true" />
     </LinearLayout>
 
-    <com.nadia.totoro.widget.tablayout.view.MsgView
+    <com.xcore.ui.widget.tablayout.view.MsgView
         xmlns:mv="http://schemas.android.com/apk/res-auto"
         android:id="@+id/rtv_msg_tip"
         android:layout_width="wrap_content"
