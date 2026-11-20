@@ -11,4 +11,9 @@ public class JConstants extends JConstant {
     public final static String LOGOUT_AGREEMENT_NAME = "账户注销协议";
     public final static String USER_LOGOUT_AGREEMENT = "USER_LOGOUT_AGREEMENT";//账户注销协议
 
+    //
+    public static int REMOTE_CPU_TEMP;
+    public static float REMOTE_BATTER_VAL;
+    public static float REMOTE_BATTER_TEMP;
+
 }
